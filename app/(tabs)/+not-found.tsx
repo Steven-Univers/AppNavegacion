@@ -1,11 +1,11 @@
-// app/(tabs)/explore.tsx
+// app/(tabs)/+not-found.tsx
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function Explore() {
+export default function NotFound() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>¡Bienvenido a la pestaña Explore!</Text>
+      <Text style={styles.title}>Página no encontrada</Text>
     </View>
   );
 }
